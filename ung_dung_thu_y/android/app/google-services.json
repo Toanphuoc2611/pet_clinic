@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "798640086630",
+    "project_id": "onesignal-push-notificat-d6536",
+    "storage_bucket": "onesignal-push-notificat-d6536.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798640086630:android:83202dac7addb690e897a7",
+        "android_client_info": {
+          "package_name": "com.example.ung_dung_thu_y"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCklFJprq6wzy3RLtmNa6EnTmcfy0uzzAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

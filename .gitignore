@@ -1,13 +1,75 @@
-# Miscellaneous
+#############################
+# Java / Spring Boot / Maven
+#############################
+
+# Compiled class files
 *.class
-*.lock
+
+# Log files
 *.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.env
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Maven target directory
+target/
+
+# Eclipse / IntelliJ IDEA / VS Code files
+*.iml
+.idea/
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Key / secret files
+application.properties
+application.yml
+application.yaml
+application-*.yml
+application-*.yaml
+application-*.properties
+**/application.properties
+**/application.yml
+**/application.yaml
+**/application-*.yml
+**/application-*.yaml
+**/application-*.properties
+**/key.properties
+*.jks
+
+#############################
+# Flutter / Dart
+#############################
+
+# Miscellaneous
+*.lock
 *.pyc
 *.swp
 .buildlog/
 .history
-
-
 
 # Flutter repo-specific
 /bin/cache/
@@ -46,7 +108,7 @@ linked_*.ds
 unlinked.ds
 unlinked_spec.ds
 
-# Android related
+# Android related (Flutter)
 **/android/**/gradle-wrapper.jar
 .gradle/
 **/android/captures/
@@ -55,9 +117,8 @@ unlinked_spec.ds
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
 **/android/key.properties
-*.jks
 
-# iOS/XCode related
+# iOS/Xcode related (Flutter)
 **/ios/**/*.mode1v3
 **/ios/**/*.mode2v3
 **/ios/**/*.moved-aside
@@ -87,30 +148,30 @@ unlinked_spec.ds
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
 
-# macOS
+# macOS (Flutter)
 **/Flutter/ephemeral/
 **/Pods/
 **/macos/Flutter/GeneratedPluginRegistrant.swift
 **/macos/Flutter/ephemeral
 **/xcuserdata/
 
-# Windows
+# Windows (Flutter)
 **/windows/flutter/generated_plugin_registrant.cc
 **/windows/flutter/generated_plugin_registrant.h
 **/windows/flutter/generated_plugins.cmake
 
-# Linux
+# Linux (Flutter)
 **/linux/flutter/generated_plugin_registrant.cc
 **/linux/flutter/generated_plugin_registrant.h
 **/linux/flutter/generated_plugins.cmake
 
-# Coverage
+# Coverage reports
 coverage/
 
-# Symbols
+# Symbol files
 app.*.symbols
 
-# Exceptions to above rules.
+# Exceptions for Flutter iOS
 !**/ios/**/default.mode1v3
 !**/ios/**/default.mode2v3
 !**/ios/**/default.pbxuser

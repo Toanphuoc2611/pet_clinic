@@ -1,0 +1,28 @@
+package com.example.petclinic.exception;
+
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.experimental.FieldDefaults;
+
+@Getter
+@AllArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public enum ErrorCode {
+    USER_NOT_EXISTED(1001, "USER NOT EXISTED"),
+    ROLE_NOT_EXISTED(1001, "ROLE NOT EXISTED"),
+    SERVICE_NOT_EXISTED(1001, "SERVICE NOT EXISTED"),
+    APPOINTMENT_NOT_EXISTED(1001, "APPOINTMENT NOT EXISTED"),
+    INVOICE_NOT_EXISTED(1001, "INVOICE NOT EXISTED"),
+    KENNEL_NOT_EXISTED(1001, "KENNEL NOT EXISTED"),
+    SERVICE_KENNEL_NOT_EXISTED(1001, "SERVICE KENNEL NOT EXISTED"),
+    KENNEL_DETAIL_NOT_EXISTED(1001, "KENNEL DETAIL NOT EXISTED"),
+    MEDICAL_RECORD_NOT_EXISTED(1001, "MEDICAL RECORD NOT EXISTED"),
+    UNAUTHENTICATED(9000, "Unauthenticated"),
+    TOKEN_FAILD(9001, "TOKEN_FAILD"),
+    TOKEN_IS_EXPIRED(9002, "TOKEN IS EXPIRED"),
+    PET_NOT_EXISTED(1004, "PET NOT EXISTED")
+    ;
+    int code;
+    String message;
+}
